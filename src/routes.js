@@ -18,7 +18,7 @@ routes.post('/users', UserController.store);
 
 routes.post('/sessions', SessionController.store);
 
-routes.get('/', (req, res) => res.send('Ok'));
+routes.get('/', (req, res) => res.send('Okei'));
 
 routes.use(authMiddleware);
 
