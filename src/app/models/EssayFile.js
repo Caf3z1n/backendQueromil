@@ -9,7 +9,7 @@ class EssayFile extends Model {
         url: {
           type: Sequelize.VIRTUAL,
           get() {
-            return `http://localhost:3333/files/${this.path}`;
+            return `http://159.89.51.29/files/${this.path}`;
           },
         },
       },
