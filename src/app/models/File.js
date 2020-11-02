@@ -9,7 +9,7 @@ class File extends Model {
         url: {
           type: Sequelize.VIRTUAL,
           get() {
-            return `http://159.89.51.29/files/${this.path}`;
+            return `https://api.queromil.cf/files/${this.path}`;
           },
         },
       },
